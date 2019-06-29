@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <dev.blank.oauth2githublibrary.LoginGithub
+        android:layout_width="wrap_content"
+        android:id="@+id/btnGithub"
+        app:clientId="Iv1.e45152b20961bedf"
+        app:redirectUri="http://45.32.101.230/callback"
+        android:layout_height="wrap_content" />
+
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="text" />
+</LinearLayout>
